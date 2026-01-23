@@ -1,0 +1,8 @@
+timestamp	checkpoint	run	N	seed	thr	acc	prec	rec	f1	eer	auc
+2025-09-17T20:13:54.423834	phase2_epoch40.pth	run=full	N=71237	seed=10007	thr=0.5000	acc=0.6893	prec=0.0944	rec=0.2340	f1=0.1346	eer=0.4439	auc=0.5867
+2025-09-17T20:25:53.171906	phase2_epoch40.pth	run=full	N=71237	seed=1234	thr=0.5000	acc=0.8407	prec=0.0696	rec=0.0439	f1=0.0539	eer=0.4523	auc=0.5923
+2025-09-17T20:38:00.479134	phase2_epoch40.pth	run=full	N=71237	seed=2025	thr=0.5000	acc=0.5576	prec=0.1490	rec=0.6969	f1=0.2455	eer=0.3898	auc=0.6712
+2025-09-17T20:49:57.281905	phase2_epoch40.pth	run=full	N=71237	seed=42	thr=0.5000	acc=0.6550	prec=0.0960	rec=0.2780	f1=0.1427	eer=0.4644	auc=0.5599
+2025-09-17T21:01:46.577392	phase2_epoch40.pth	run=full	N=71237	seed=5555	thr=0.5000	acc=0.7538	prec=0.0797	rec=0.1312	f1=0.0992	eer=0.4776	auc=0.5481
+2025-09-17T21:13:29.808585	phase2_epoch40.pth	run=full	N=71237	seed=6789	thr=0.5000	acc=0.7667	prec=0.1502	rec=0.2703	f1=0.1931	eer=0.3866	auc=0.6564
+2025-09-17T21:24:15.683643	phase2_epoch40.pth	run=full	N=71237	seed=999	thr=0.5000	acc=0.7916	prec=0.2724	rec=0.6098	f1=0.3766	eer=0.2823	auc=0.8068
