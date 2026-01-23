@@ -9,7 +9,8 @@ The model is evaluated on **ASVspoof**, **MLAAD**, and **In-the-Wild (ITW)** aud
 ## Model Architecture
 
 
-<img src="assets/architecture.png" width="800"/>
+<img src="assets/Architechture_2.jpg" width="800">
+
 
 The pipeline converts raw audio into **mel-spectrograms**, extracts local representations using a convolutional front-end, and models temporal dependencies using an **LTC-based ODE cell**, followed by bonafide/spoof classification.
 
