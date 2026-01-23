@@ -20,9 +20,8 @@ The pipeline converts raw audio into **mel-spectrograms**, extracts local repres
 
 The hidden state of the Liquid Neural Network evolves according to a continuous-time differential equation:
 
-\[
-\frac{dx(t)}{dt} = -\frac{1}{\tau} x(t) + \sigma \left( W x(t) + U u(t) + b \right)
-\]
+dx(t)/dt = -(1/τ) x(t) + σ(W x(t) + U u(t) + b)
+
 
 where:
 - \(x(t)\) represents the neuron state,
