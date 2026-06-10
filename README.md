@@ -1,7 +1,7 @@
 ## Liquid Neural Network Audio Deepfake Detector
 
 This project investigates **audio deepfake detection** using **Liquid Neural Networks (LNNs)** to model temporal speech dynamics in continuous time. 
-Unlike conventional RNN/LSTM-based detectors, the proposed approach leverages **Liquid Time-Constant (LTC) neurons** governed by learnable differential equations, enabling improved generalization a[...]
+Unlike conventional RNN/LSTM-based detectors, the proposed approach leverages **Liquid Time-Constant (LTC) neurons** governed by learnable differential equations, enabling improved generalization acro[...]
 The model is evaluated on **ASVspoof**, **MLAAD**, and **In-the-Wild (ITW)** audio deepfake benchmarks, focusing on cross-domain robustness.
 
 ---
@@ -19,7 +19,7 @@ For detailed methodology and experimental results, refer to the research paper:
 <img src="assets/Architechture_2.jpg" width="800">
 
 
-The pipeline converts raw audio into **mel-spectrograms**, extracts local representations using a convolutional front-end, and models temporal dependencies using an **LTC-based ODE cell**, followe[...]
+The pipeline converts raw audio into **mel-spectrograms**, extracts local representations using a convolutional front-end, and models temporal dependencies using an **LTC-based ODE cell**, followed by[...]
 
 ---
 
